@@ -7,8 +7,8 @@ const App = () => {
   const tab1 = [{'title': 'Tab 1', 'content':''},{'title': 'Tab 2', 'content':''},{'title': 'Tab 3', 'content':''}]
   const tabA = [{'title': 'Tab A', 'content':''},{'title': 'Tab B', 'content':''},{'title': 'Tab C', 'content':''}]
 
-  const [tab1content, setTab1Content] = useState("");
-  const [tab2content, setTab2Content] = useState("");
+  const [tab1content, setTab1Content] = useState("Tab 1");
+  const [tab2content, setTab2Content] = useState("Tab A");
   return (
     <div>
         {/* Do not remove the main div */}
